@@ -1,3 +1,3 @@
-useWTCCC <- function() {
-  bfile(attachroot("/DATA/WTCCC_QC/WTCCC_QC2"))
+useWTCCC <- function(fdat="/DATA/WTCCC_QC/WTCCC_QC2") {
+  bfile(attachroot(fdat))
 }
